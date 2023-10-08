@@ -1,0 +1,25 @@
+{
+  "name": "get-repos",
+  "version": "1.0.0",
+  "description": "This application getting the existens repositories from github api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overhard-end/get-repos.git"
+  },
+  "keywords": [
+    "api",
+    "dom",
+    "debounce",
+    "requests"
+  ],
+  "author": "muhammed ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/overhard-end/get-repos/issues"
+  },
+  "homepage": "https://github.com/overhard-end/get-repos#readme"
+}
