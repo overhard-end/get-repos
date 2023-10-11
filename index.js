@@ -21,7 +21,6 @@ const cutText = (text) => {
 // Helpers end
 let items = [];
 let selectedItems = [];
-let error = "";
 
 const delayHandler = debounce(inputHandler, 700);
 const setError = () => alert("Limit of requests exceeded ! Wait a bit dude");
@@ -45,7 +44,6 @@ const handleHintClick = (e) => {
     }
   }
 };
-
 const handleItemClick = (e) => {
   const index = e.target.dataset.index;
 
